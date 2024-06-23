@@ -1,0 +1,22 @@
+<div class="centered-content">
+  <div class="model-box">
+    <h3 class="title">{{ pageTitle }}</h3>
+    <div class="mb-3">
+      <input
+        type="text"
+        class="form-control"
+        id="list-title"
+        placeholder="Enter a Title"
+        [(ngModel)]="title"
+      />
+    </div>
+    <div class="button-group">
+      <button class="btn btn-light mr-3" (click)="navigateToPreviousPage()">
+        Back
+      </button>
+      <button class="btn btn-primary" (click)="onButtonClick()">
+        <p class="text-white m-0">{{ buttonLabel }}</p>
+      </button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,58 @@
+// set custom
+$turqoise: #44ddd0;
+$green: #27d7a1;
+
+$light-green: #45f69e;
+$dark-green: rgb(0, 100, 0);
+
+$light: #f8f8f8;
+
+// update Bootstrap's global variables
+$primary: $green;
+
+// set custom global styles
+body {
+    background: linear-gradient(to right top, $turqoise, $green);
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.centered-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%; 
+}
+
+.title {
+    font-family: 'Leto';
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.white-box {
+    background: white;
+
+    width: 100%;
+    height: 100%;
+
+    padding: 32px;
+
+    max-width: 400px;
+    max-height: 285px;
+
+    border-radius: 5px;
+}
+
+.text-link {
+    color: $turqoise;
+}
+
+.query-text {
+    font-size: 14px;
+}

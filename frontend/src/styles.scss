@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+// importing custom sass file
+@import './main-styles.scss';
+
+// importing bootstrap sass files after custom stylesheet so that variable overrides take effect
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../node_modules/bootstrap/scss/functions';
+@import '../node_modules/bootstrap/scss/variables';
+@import '../node_modules/bootstrap/scss/mixins';
+
+
+
+
